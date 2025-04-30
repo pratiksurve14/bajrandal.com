@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bajrang Dal - Aryanagar Zilla</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff7e6;
+      color: #333;
+    }
+    header {
+      background-color: #ff6f00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #bf360c;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/9/9f/Lord_Hanuman_wallpaper.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      margin: 10px;
+      border: 2px solid #ff6f00;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #ff6f00;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bajrang Dal - Aryanagar Zilla</h1>
+    <p>Sanatani Youth. Nation First. Dharma Forever.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    Jai Shri Ram 🚩
+  </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Bajrang Dal is a youth organization committed to protecting Sanatan Dharma, serving society, and upholding national pride. Aryanagar Zilla division works to unite the youth through seva, sanskar, and shakti.</p>
+  </section>
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>To instill patriotism, uphold cultural values, support religious harmony, and respond actively in service of society and Dharma.</p>
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x150?text=Event+1" alt="Event 1">
+      <img src="https://via.placeholder.com/200x150?text=Event+2" alt="Event 2">
+      <img src="https://via.placeholder.com/200x150?text=Event+3" alt="Event 3">
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: aryanagar.bdal@example.com</p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Bajrang Dal - Aryanagar Zilla | Jai Shri Ram 🚩</p>
+  </footer>
+</body>
+</html>
+
